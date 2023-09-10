@@ -11,6 +11,7 @@ def draw():
         if i % 2 == 0:
             fill(255,0,0)
         else:
+            fill(0,0,0)
             pass
         ellipse(250,250,circlesize,circlesize)
         circlesize = circlesize - 50
